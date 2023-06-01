@@ -16,6 +16,14 @@
     text-decoration: none;
     color: var(--heading-color);
     font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.social__links span li {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.2rem;
+    list-style-type: none;
 }
 
 .footer__link-title {

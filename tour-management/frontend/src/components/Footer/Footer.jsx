@@ -51,17 +51,37 @@ const Footer = () => {
               </p>
               <div className="social__links d-flex align-items-center gap-4">
                 <span>
-                  <Link to='#'><i class='ri-youtube-line'></i></Link>
+                  <li>
+                    <a href="https://www.linkedin.com/in/abiodun-raheem" aria-label="linkedn" target="_blank" rel="noreferrer noopener"><i class="ri-linkedin-box-line"></i></a>
+                  </li>
                 </span>
                 <span>
-                  <Link to='#'><i class='ri-github-fill'></i></Link>
+                  <li>
+                    <a href="https://twitter.com/@abiodunraheem23" aria-label="twitter" target="_blank" rel="noreferrer noopener"><i class="ri-twitter-line"></i></a>
+                  </li>
                 </span>
                 <span>
-                  <Link to='#'><i class='ri-github-fill'></i></Link>
+                  <li>
+                    <a href="https://github.com/Abiodunraheem" aria-label="github" target="_blank" rel="noreferrer noopener"><i class="ri-github-line"></i></a>
+                  </li>
                 </span>
                 <span>
-                  <Link to='#'><i class='ri-github-fill'></i></Link>
+                  <li>
+                    <a href="https://medium.com/@raheemabiodun23" aria-label="medium" target="_blank" rel="noreferrer noopener"><i class="ri-medium-line"></i></a>
+                  </li>
                 </span>
+                {/* <span>
+                  <Link to='https://www.linkedin.com/in/abiodun-raheem'><i class="ri-linkedin-box-line"></i></Link>
+                </span>
+                <span>
+                  <Link to='https://twitter.com/@abiodunraheem23'><i class="ri-twitter-line"></i></Link>
+                </span>
+                <span>
+                  <Link to='https://github.com/Abiodunraheem'><i class="ri-github-line"></i></Link>
+                </span>
+                <span>
+                  <Link to='#'><i class="ri-medium-line"></i></Link>
+                </span> */}
               </div>
             </div>
           </Col>
@@ -115,14 +135,14 @@ const Footer = () => {
                       <span><i class='ri-phone-fill'></i></span>
                       Phone:
                     </h6>
-                    <p className='mb-0 '>+2348060165838</p>
+                    <p className='mb-0 '>+234-806-0165-838</p>
                   </ListGroupItem>
             </ListGroup>
           </Col>
 
           <Col lg='12' className='text-center pt-5'>
             <p className="copyright">
-              copyrighht {year}, design and develop by Abiodun Raheem. All right reserved.
+              copyright &copy; {year}, design and develop by Abiodun Raheem. All right reserved.
             </p>
           </Col>
         </Row>
