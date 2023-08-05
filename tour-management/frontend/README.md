@@ -20,7 +20,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Click here]() 
+[Click here](https://tour-management-app.netlify.app/) 
 
 ## Getting Started
 
